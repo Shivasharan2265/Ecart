@@ -1,6 +1,6 @@
 const app = require("./app.js")
 const dotenv = require("dotenv")
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 const connectDB = require("./config/database.js")
 
 process.on("uncaughtException", (err) => {
